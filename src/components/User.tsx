@@ -22,7 +22,7 @@ export default class User extends React.Component<IProps, IState> {
 		super(props);
 		this.state = {
 			ID: 27,
-			Name: "wrp.prajay",
+			Name: "Goyani Prajay",
 		}
 	}
 
