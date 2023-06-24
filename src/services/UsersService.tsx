@@ -7,4 +7,9 @@ export class UsersService {
         let UserURL: string = `${this.URL}/users`
         return axios.get(UserURL)
     }
+
+    public static getUser(fiUserID: number) {
+        let UserURL: string = `${this.URL}/users/${fiUserID}`;
+        return axios.get(UserURL)
+    }
 }

@@ -7,33 +7,27 @@ import User from './components/User'
 import UserList from './components/UserList'
 import Users from './components/Users'
 import Youtube from './components/Youtube'
-import About from './components/About'
+import AboutUs from './components/AboutUs'
 import Navbar from './components/Navbar'
 import UserDetail from './components/UserDetail'
 
 function Base() {
   return (
-    // <div className="container">
-    // <div className="row">
     <>
       <Navbar />
       <Routes>
         <Route path='/' element={<Users />} />
         <Route path='/users/:id' element={<UserDetail />} />
-        <Route path='/about' element={<About />} />
+        <Route path='/about-us' element={<AboutUs />} />
         <Route path='/login' element={<Login />} />
-        {/* <Customer fsName="WRP Prajay" fsTitle="PHP Developer" fiAge={22} /> */}
-        {/* <User fiUserID={22} fsUserName="wrp.prajay" /> */}
-        {/* <Counter /> */}
-        {/* <Youtube /> */}
-        {/* <Login /> */}
-        {/* <AuthUser /> */}
-        {/* <UserList /> */}
-        {/* <Users /> */}
+        <Route path='/customer' element={<Customer fsName="WRP Prajay" fsTitle="PHP Developer" fiAge={22} />} />
+        <Route path='/user' element={<User fiUserID={27} fsUserName={"PHP Developer"} />} />
+        <Route path='/counter' element={<Counter />} />
+        <Route path='/youtube' element={<Youtube />} />
+        <Route path='/auth-user' element={<AuthUser />} />
+        <Route path='/user-list' element={<UserList />} />
       </Routes>
     </>
-    // </div>
-    // </div>
   );
 }
 

@@ -1,0 +1,10 @@
+For Running scripts is disabled on your system,
+
+1. Change PowerShell execution policy being set to a restricted mode to all
+ - Get-ExecutionPolicy
+ - This command will display the current execution policy.
+
+2. This command sets the execution policy to "RemoteSigned", which allows
+the execution of locally created scripts.
+   - Set-ExecutionPolicy RemoteSigned
+   - Confirm the change by entering "Y" when prompted.

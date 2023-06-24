@@ -33,6 +33,10 @@ Info Links
      - https://stackoverflow.com/questions/37548066/typescript-typings-in-npm-types-org-packages
 
 --------------------------------------------------------------------------/
+• Videos
+ - https://www.youtube.com/watch?reload=9&v=FJDVKeh7RJI - typescript with react
+ - https://www.youtube.com/watch?v=KsIhZVt0jBM&list=PLuHGmgpyHfRx9e7yeOaaL79_L_mBFBHLc&index=1
+   (typescript with react in hindi)
 
-https://www.youtube.com/watch?reload=9&v=FJDVKeh7RJI - typescript with react
-https://www.youtube.com/watch?v=KsIhZVt0jBM&list=PLuHGmgpyHfRx9e7yeOaaL79_L_mBFBHLc&index=1 - typescript with react in hindi
+• Ref Links
+ - https://github.com/TypeStrong/learn-typescript/

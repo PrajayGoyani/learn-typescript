@@ -1,4 +1,5 @@
-import React, { useState } from "react"
+import React, { useEffect, useState } from "react"
+import config from "../config/config"
 
 interface IState {
     fsName: String,
@@ -6,7 +7,13 @@ interface IState {
 }
 
 let About: React.FunctionComponent = () => {
+
+    useEffect(() => {
+		document.title = `${config.appName} - About Us`
+	}, [])
+
     const [state, setState] = useState<IState>({ fsName: "WRP Prajay", fsTitle: "PHP Developer" })
+
     return (
         <div className="container">
             <div className="row">
