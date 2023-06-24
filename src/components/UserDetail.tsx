@@ -56,12 +56,23 @@ const UserDetail: React.FunctionComponent = () => {
                   <li className="list-group-item">
                     Name : <b>{foUser.name}</b>
                   </li>
+                  <li className="list-group-item">
+                    Username : <b>{foUser.username}</b>
+                  </li>
+                  <li className="list-group-item">
+                    Email : <b>{foUser.email}</b>
+                  </li>
+                  <li className="list-group-item">
+                    Phone : <b>{foUser.phone}</b>
+                  </li>
+                  <li className="list-group-item">
+                    Website : <b>{foUser.website}</b>
+                  </li>
                 </ul>
               </div>
             )
           }
         </div>
-        <h4>URL params: <span className='font-weight-bold'>{id}</span></h4>
         <div className="mt-4">
           <Link to={'/'} className='btn text-light text-bg-primary'>GO BACK</Link>
         </div>
